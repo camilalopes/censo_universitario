@@ -15,9 +15,16 @@ Para coletar e extrair os dados disponibilizados no INEP você pode executar o c
 pip install requirements.txt
 ```
 
-> Depois execute o crawler disponibilizado
+> Depois execute o crawler disponibilizado, por padrão ele irá obter os anos de 2009 a 2019
+
 ```
-python crawler/crawler_censo_universitario.py
+python crawler_censo_universitario.py
+```
+
+> Também é possível especificar quais os anos deseja obter os dados passando-os por parâmetro
+
+```
+python crawler_censo_universitario.py 2010 2012 2019
 ```
 
 Você deve obter um resultado semelhante ao descrito abaixo:
